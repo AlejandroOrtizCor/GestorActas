@@ -1,0 +1,23 @@
+main { max-width: 640px; margin: 2rem auto; padding: 0 1rem; font-family: system-ui, sans-serif; }
+.list { list-style: none; padding: 0; }
+.list button { width: 100%; text-align: left; padding: .6rem .8rem; margin-bottom: .3rem; cursor: pointer; }
+.crumbs button { background: none; border: none; color: #2563eb; cursor: pointer; }
+.form label { display: block; margin-bottom: 1rem; }
+.form label span { display: block; font-size: .9rem; margin-bottom: .25rem; }
+.form input, .form textarea { width: 100%; padding: .5rem; box-sizing: border-box; }
+.actions { display: flex; gap: .5rem; }
+.actions button { padding: .6rem 1rem; cursor: pointer; }
+.error { color: #b91c1c; }
+.group { margin: 0 0 1rem; padding: .75rem; border: 1px solid #ccc; border-radius: 6px; }
+.group legend { font-weight: 600; padding: 0 .4rem; }
+.scroll { overflow-x: auto; margin-bottom: .5rem; }
+.group table { border-collapse: collapse; width: 100%; }
+.group th { text-align: left; font-size: .85rem; padding: .25rem; white-space: nowrap; }
+.group td { padding: .2rem; min-width: 120px; }
+.group td:last-child { min-width: 0; }
+.group .rowlabel { text-align: left; font-weight: 500; padding: .2rem .5rem .2rem 0; min-width: 160px; }
+.drop { display: flex; flex-direction: column; gap: .4rem; align-items: center; padding: 3rem 1rem; border: 2px dashed #999; border-radius: 10px; cursor: pointer; text-align: center; }
+.drop:hover { border-color: #2563eb; }
+.drop span { font-size: .9rem; color: #666; }
+.zipbar { font-size: .9rem; }
+.link { color: #2563eb; cursor: pointer; text-decoration: underline; }
